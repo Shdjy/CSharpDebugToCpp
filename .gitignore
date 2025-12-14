@@ -1,0 +1,12 @@
+# 编译输出文件
+bin/
+obj/
+
+# 用户特定文件
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 其他
+*.vs/
