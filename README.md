@@ -73,6 +73,7 @@ BOOL APIENTRY DllMain(HMODULE hModule,
 ```
 
 （2）当dll中出现异常中断时会在程序目录生成.dmp 文件，用vs打开该文件。
+
 （3）VS 会提示选择 调试类型：
 	对于 .NET 程序 → 选择 混合模式调试 (.NET + 本机)。
 	对于 C++ DLL → 选择 本机代码。
